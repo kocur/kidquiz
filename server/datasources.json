@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "kidquiz": {
+    "host": "ds145389.mlab.com",
+    "port": 45389,
+    "url": "mongodb://kidquiz:QW12qw12@ds145389.mlab.com:45389/kidquiz",
+    "database": "kidquiz",
+    "password": "QW12qw12",
+    "name": "kidquiz",
+    "user": "kidquiz",
+    "connector": "mongodb"
   }
 }

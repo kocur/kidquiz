@@ -37,5 +37,17 @@
   },
   "Message": {
     "dataSource": null
+  },
+  "quiz": {
+    "dataSource": "kidquiz",
+    "public": true
+  },
+  "question": {
+    "dataSource": "kidquiz",
+    "public": true
+  },
+  "answer": {
+    "dataSource": "kidquiz",
+    "public": true
   }
 }
