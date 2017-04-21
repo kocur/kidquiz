@@ -1,16 +1,28 @@
 {
-  "name": "Quiz",
+  "name": "QuizQuestion",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "name": {
+    "questionBody": {
       "type": "string",
       "required": true
     },
-    "description": {
+    "answer1": {
+      "type": "string",
+      "required": true
+    },
+    "answer2": {
+      "type": "string",
+      "required": true
+    },
+    "answer3": {
+      "type": "string",
+      "required": true
+    },
+    "correctAnswer": {
       "type": "string",
       "required": true
     }

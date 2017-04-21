@@ -32,15 +32,11 @@
     "dataSource": "db",
     "public": false
   },
-  "quiz": {
+  "Quiz": {
     "dataSource": "kidquiz",
     "public": true
   },
-  "question": {
-    "dataSource": "kidquiz",
-    "public": true
-  },
-  "answer": {
+  "QuizQuestion": {
     "dataSource": "kidquiz",
     "public": true
   }
