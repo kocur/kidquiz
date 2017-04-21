@@ -16,7 +16,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "quizQuestions": {
+      "type": "hasMany",
+      "model": "QuizQuestion",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
